@@ -1,0 +1,243 @@
+/*******************************************
+*TABLE OF CONTENTS
+*=================
+*1. DEFAULT OVERRIDES
+*2. HEADER 
+*3. ASIDE
+*4. MAIN
+-3a. Hiking the Bruce
+-3b. Seasonal Hiking
+-3c. Tobermory
+*5. FOOTER
+-5a. Form
+-5b. Copywrite
+*********************************************/
+
+/*INTRO CSS */
+/*To see inital positioning*/
+
+
+/*#header {
+	border: 3px dashed blue;
+}
+
+#main {
+	border: 3px dashed pink;
+
+}
+#hikingBruce {
+	border: 3px dashed yellow;
+	
+}
+#seasonalHiking {
+	border: 3px dashed red;
+	
+}
+#sidebar {
+	border: 3px dashed black;
+	
+}
+#footer {
+	border: 3px dashed white;	
+}*/
+
+
+/*===========================================================
+/* 1. DEFAULT OVERRIDES */
+/*=========================================================*/
+
+
+html {
+	height: 100%;
+	margin: 0 auto;
+	padding-left: 0;
+    font-family: 'Overpass',Arial,Helvetica,sans-serif;
+    color:#434533; 
+    background: #6D7053;
+    max-width: 1024px;
+}
+
+a {
+	text-decoration: none;
+	color: #E0FF66;
+}
+
+a:hover {
+	color: #434533 ;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+/*=========================================================
+/* 2. HEADER */
+/*=======================================================*/
+
+#logo {
+	height: 125px;
+	width: auto;
+	display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+#header {
+	background: url('welcome.jpg');
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+.main-links {
+	font-family: 'Overpass',Arial,Helvetica,sans-serif;
+  	color: #E0FF7D; 
+  	word-spacing: 100px;
+  	font-size: 2vw;
+  	max-width: 1024px;
+}
+
+#worldTraveller {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 16%;
+	font-size: 100px;
+	/*font-size: 6vw;*/
+	word-spacing: 3px;
+	max-width: 1024px;
+}
+
+ nav {
+ 	margin: 0 auto;
+	width: 1024px;
+	height: 440px;	
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;	
+	max-width: 1024px;
+}
+
+
+/*======================================================
+/* 3.ASIDE */
+/*=====================================================*/
+
+aside {	
+	float: right;
+	position: relative;
+	max-width: 33%;	
+	text-align: right;
+	margin-right: 3%;	
+}
+
+#Blog-posts, #More-links {
+	color: #E0FF66;
+}
+
+#blogpostlist, #morelinkslist {
+	list-style: none;
+}
+
+
+/*======================================================
+/* 4.MAIN */
+/*=====================================================*/
+
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#main {
+	background: #B8D175;
+}
+
+#wrapper {
+	max-width: 600px;
+	width: 67%;
+	float: left;
+	/*margin-left: 10%;*/
+	display: inline-block;
+	min-height: 100%;
+	position: relative;
+}
+
+#Brucelink {
+	color: #E0FF7D;
+}
+
+#Brucelink:hover {
+	color: #434533 ;
+}
+
+#mossrocks {
+	width: 75%;
+}
+
+#pplundercave {
+	width: 75%;
+}
+
+#icestorm {
+	width: 30%;
+}
+
+#shore {
+	width: 30%;
+}
+
+#poppy {
+	width: 30%;
+}
+
+#hikingBruce {
+	margin-top: -19px;
+}
+
+p {
+	padding-left: 6.5%;
+}
+
+h2, h3 {
+	padding-left: 1.5%;
+	padding-top: 1.5%;
+}
+
+form {
+	padding-left: 1.5%;
+}
+
+/*=====================================================
+/* 5.FOOTER */
+/*===================================================*/
+
+
+#footer {
+	position: relative;
+	height: 100px;
+	margin: 0 auto;
+	width: 33%;
+	max-width: 1024px;
+	display: inline-block;
+	bottom: 0px;
+	left: 0px;
+	color: #E0FF66;
+	padding-top: 65px;
+	padding-left: 68%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
